@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: backend-reconocimiento
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: MYSQL_HOST
+        value: ${MYSQL_HOST}
+      - key: MYSQL_USER
+        value: ${MYSQL_USER}
+      - key: MYSQL_PASSWORD
+        value: ${MYSQL_PASSWORD}
+      - key: MYSQL_DB
+        value: ${MYSQL_DB}

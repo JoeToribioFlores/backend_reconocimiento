@@ -1,0 +1,7 @@
+Flask
+flask-cors
+flask-mysqldb
+werkzeug
+numpy
+opencv-python
+Pillow
