@@ -1,8 +1,7 @@
-# conexión de la base de datos MySQL
-
 db_config = {
-    'host': 'localhost',
+    'host': 'mainline.proxy.rlwy.net',
     'user': 'root',
-    'password': '12345678',
-    'database': 'reconocimiento_facial'
+    'password': 'YDxCTVxRsregFXrnOgyGTeTQqWYVeNLF',
+    'database': 'railway',
+    'port': 45838
 }
